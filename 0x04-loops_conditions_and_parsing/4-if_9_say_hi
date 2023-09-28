@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+# A script that displays best school
+
+i=0
+
+while [ $i -le 9 ]
+do
+	echo "Best School"
+if [ $i -eq 8 ]
+then
+	echo "Hi"
+fi
+((i++))
+done
